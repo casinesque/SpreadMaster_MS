@@ -16,7 +16,7 @@ public class GetOneITAServiceImpl implements GetOneITAService{
 
 	@Override
 	public Optional<Poem> getOnePoemITA() {
-		int lower = 1;
+		int lower = 54;
 		int upper = 245;
 		int randomId = (int) (Math.random() * (upper - lower)) + lower;
 		Optional<Poem> selectedPoem = poemDAO.findById(randomId);
