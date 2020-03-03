@@ -27,7 +27,7 @@ public String index() {
 	
 @GetMapping(value = "/get")
 public ResponseEntity<?> getOnePoemITA () {
-	logger.info("E' stata chiamata  getOnePoemITA ");
+	logger.info("Has been called getOnePoemITA ");
 	try {
 		Poem returnedPoem =  getOneITAService.getOnePoemITA().get();
 		// AGgiungere che devo ritornare il testo e basta non tutto l'oggetto!
