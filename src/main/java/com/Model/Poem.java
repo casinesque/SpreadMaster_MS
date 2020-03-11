@@ -12,21 +12,20 @@ import javax.persistence.Table;
 @Table(name = "poesia", schema="public")
 public class Poem {
 	
-	Integer Id;
+	@Id
+	@Column(name="id", nullable = false)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	Integer id;
 	
 	@Column(name="testo", nullable = false)
 	String text;
 	
-	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="Id", nullable = false)
 	public Integer getId() {
-		return Id;
+		return id;
 	}
 	public void setId(Integer id) {
-		this.Id = id;
+		this.id = id;
 	}
-	@Column(name="testo", nullable = false)
 	public String getText() {
 		return text;
 	}
