@@ -30,7 +30,7 @@ public ResponseEntity<?> getOnePoemITA () {
 	logger.info("Has been called getOnePoemITA ");
 	try {
 		Poem returnedPoem =  getOneITAService.getOnePoemITA().get();
-		logger.info("Ho restituito la poesia: "+returnedPoem.getId());
+		logger.info("I've returned the poem with id: "+returnedPoem.getId());
 		return new ResponseEntity<Poem>(returnedPoem, HttpStatus.OK);
 	}catch (Exception e) {
 		
