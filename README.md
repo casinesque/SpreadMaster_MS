@@ -3,6 +3,10 @@ The **Edgar Lee Masters Anthology** is to me, one of the most important book of 
 
 After reading this book i felt the need to leave my contribution in otder to keep the importance and the majestic of this book up and spread and increase further the popularity which this text deserves.
 
+This is the second part of the project, you can find the first one at: https://github.com/casinesque/SpreadMasters_TextProcessing
+
+While the first one clean data and prepare the database, this publicly expose an API for interrogate the application.
+
 Basically this webApp on the ``` \get``` path returns a random poetry from the book, which may be useful for schools and related.
 
 Simply connect to https://spread-masters.herokuapp.com/get where currently the backend of the app is deployed to get your poetry.
