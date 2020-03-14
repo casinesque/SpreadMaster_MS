@@ -1,5 +1,17 @@
+.classpath
+.project
+_classpath.xml
+_directory
+_gitignore
+_project.xml
+*.sql
+/home/marco/ecl…/main/resources/application.properties
+.gitignore
 
-HELP.md
+
+
+
+# HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
