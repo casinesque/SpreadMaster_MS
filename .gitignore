@@ -3,12 +3,12 @@
 _classpath.xml
 _directory
 _gitignore
-_project.xml
+# _project.xml
 *.sql
 /home/marco/ecl…/main/resources/application.properties
 .gitignore
-
-
+.directory
+_project.xml
 
 
 # HELP.md
