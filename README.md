@@ -1,7 +1,7 @@
 # SpreadMaster_MS
 The **Edgar Lee Masters Anthology** is to me, one of the most important book of the last century, a proof of this is that it has been quoted and analyzed many many times spanning from songwriters to philosophers.
 
-After reading this book i felt the need to leave my contribution in otder to keep the importance and the majestic of this book up and spread and increase further the popularity which this text deserves.
+After reading this book i felt the need to leave my contribution in order to keep the importance and the majestic of this book up and to spread and to further increase the popularity which this text deserves.
 
 This is the second part of the project, you can find the first one at: https://github.com/casinesque/SpreadMasters_TextProcessing
 
